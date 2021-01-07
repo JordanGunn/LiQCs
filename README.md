@@ -34,5 +34,22 @@ For example, consider the following command:
     >> python liqcs.py -i C:\User\Lidar -t /dg /t /h
         This command would generate ground density grids, a tile index for the batch,
         and a density histogram for the batch.
-        
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 **DOCUMENTATION WRITTEN BY GRAEME PRENDERGAST**
