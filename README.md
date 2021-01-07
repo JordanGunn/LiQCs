@@ -18,7 +18,7 @@ Proper usage from the command line looks as follows:
         This command runs only 4 QC checks, defined by each character
         in '/i /n /dg /t', and stores the results in the same folder.
 
-Each QC test has a shorthand to be defined after the -t flag as follows:
+*Each QC test has a shorthand to be defined after the -t flag as follows:
     /all    : run all tests
     /l      : lasinfo, generate lasinfo text files for each input
     /n      : check filename, verify if each filename adheres to the GeoBC specs
@@ -30,8 +30,8 @@ Each QC test has a shorthand to be defined after the -t flag as follows:
     /h      : density histogram, plot point density histogram for the input batch
     /v      : void check, identify non-water point voids in the lidar, if any
 
-For example, consider the following command:
-    >> python liqcs.py -i C:\User\Lidar -t /dg /t /h
+*For example, consider the following command:
+    *>> python liqcs.py -i C:\User\Lidar -t /dg /t /h
         This command would generate ground density grids, a tile index for the batch,
         and a density histogram for the batch.
  
